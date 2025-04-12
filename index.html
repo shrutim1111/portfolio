@@ -1,124 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shruti Moholkar - Portfolio</title>
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #f9f9f9;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #2c3e50;
-            color: white;
-            text-align: center;
-            padding: 2rem 1rem;
-        }
-        header img {
-            width: 140px;
-            height: 140px;
-            border-radius: 50%;
-            margin-top: 1rem;
-            border: 4px solid white;
-        }
-        section {
-            max-width: 960px;
-            margin: 2rem auto;
-            background: white;
-            padding: 2rem;
-            border-radius: 10px;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-        }
-        h2 {
-            color: #34495e;
-            border-bottom: 2px solid #eee;
-            padding-bottom: 0.5rem;
-        }
-        .project-img, .cert-img {
-            width: 100%;
-            max-width: 600px;
-            margin: 1rem 0;
-            border-radius: 10px;
-            box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
-        }
-        ul {
-            line-height: 1.8;
-        }
-        footer {
-            text-align: center;
-            padding: 1rem;
-            font-size: 0.9rem;
-            background-color: #eee;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shruti Moholkar | Portfolio</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f6f9;
+      color: #333;
+    }
+    header {
+      background-color: #2e86de;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    nav {
+      text-align: center;
+      margin: 1rem 0;
+    }
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #2e86de;
+      font-weight: bold;
+    }
+    .section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      color: #2e86de;
+    }
+    .grid-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+    }
+    ul {
+      padding-left: 1.2rem;
+    }
+    .footer {
+      text-align: center;
+      padding: 1rem;
+      background: #eee;
+      margin-top: 3rem;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>Shruti Moholkar</h1>
-        <p>Computer Science Postgraduate | AWS & DevOps Enthusiast</p>
-        <img src="https://via.placeholder.com/150" alt="Shruti Moholkar">
-    </header>
+  <header>
+    <h1>Shruti Moholkar</h1>
+    <p>Computer Science Master's Graduate | Software Development | Web Technologies | AWS</p>
+  </header>
 
-    <section>
-        <h2>Career Objective</h2>
-        <p>To pursue a challenging career and be part of a progressive organization that gives scope to enhance my knowledge, skills, and to reach the pinnacle in the computing and research field with sheer determination and dedication.</p>
-    </section>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#certifications">Certifications</a>
+    <a href="#contact">Contact</a>
+  </nav>
 
-    <section>
-        <h2>Academic Background</h2>
-        <ul>
-            <li>M.Sc. Computer Science – Shivaji University, 2023</li>
-            <li>B.Sc. Computer Science – Shivaji University, 2021</li>
-            <li>12th – Maharashtra Board, 2018</li>
-            <li>10th – Maharashtra Board, 2016</li>
-        </ul>
-    </section>
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>
+      Highly motivated and detail-oriented Computer Science Master's graduate with a strong foundation in software development, web technologies, and cloud services. Proficient in Python, Java, C++, and AWS services, with hands-on experience in real-world academic projects.
+    </p>
+  </section>
 
-    <section>
-        <h2>Technical Skills</h2>
-        <ul>
-            <li>Languages: C, C++, Python, Java, JavaScript</li>
-            <li>Database: MySQL, Oracle</li>
-            <li>Web: HTML, CSS, JavaScript, PHP</li>
-            <li>Tools: Visual Studio Code, Eclipse, NetBeans</li>
-            <li>Cloud: Basics of AWS (EC2, S3)</li>
-        </ul>
-    </section>
+  <section id="skills" class="section">
+    <h2>Technical Skills</h2>
+    <div class="grid-2">
+      <div>
+        <strong>Python:</strong> Data Types, OOP, Error Handling, NumPy, Pandas, AI Excel Optimization<br>
+        <strong>Java:</strong> Looping, OOPs, Collections, Multi-threading, Eclipse<br>
+        <strong>C++:</strong> Pointers, OOPs, STL, Code::Blocks<br>
+        <strong>SQL:</strong> Joins, Subqueries, Stored Procedures, MySQL, SQL Server
+      </div>
+      <div>
+        <strong>Web:</strong> HTML, CSS, JavaScript, ASP.NET, Git<br>
+        <strong>DevOps:</strong> CI/CD Concepts, Unix Shell Scripting<br>
+        <strong>AWS:</strong> EC2, S3, VPC, RDS, EKS, Load Balancing, Monitoring<br>
+        <strong>Tools:</strong> Visual Studio, Eclipse, Edit+, Git
+      </div>
+    </div>
+  </section>
 
-    <section>
-        <h2>Projects</h2>
-        <p><strong>Project 1:</strong> Cloud-based file storage system using AWS S3 and Lambda</p>
-        <img src="https://via.placeholder.com/600x300" alt="Project Screenshot" class="project-img">
+  <section id="projects" class="section">
+    <h2>Academic Projects</h2>
+    <h3>HomeHunt – C#, .NET, SQL Server</h3>
+    <ul>
+      <li>Developed a comprehensive web application using C#.NET focused on ease-of-use and smooth UX.</li>
+      <li>Implemented responsive UI, increasing user engagement by 20%.</li>
+      <li>Reduced booking process time by 15% through performance optimizations.</li>
+      <li>Delivered the project 2 weeks ahead of schedule.</li>
+    </ul>
 
-        <p><strong>Project 2:</strong> E-commerce website with secure login and payment gateway</p>
-        <img src="https://via.placeholder.com/600x300" alt="Project Screenshot" class="project-img">
-    </section>
+    <h3>Shop Management System – Java</h3>
+    <ul>
+      <li>Led development for a pizza shop automation system using Java.</li>
+      <li>Integrated inventory tracking reducing discrepancies by 30%.</li>
+      <li>Implemented loyalty program leading to 10% more repeat orders.</li>
+      <li>Optimized order processing, improving efficiency by 20%.</li>
+    </ul>
 
-    <section>
-        <h2>Certifications</h2>
-        <ul>
-            <li>Hardware & Maintenance – Shivaji University, 2022</li>
-            <li>AWS Fundamentals – Coursera</li>
-        </ul>
-        <img src="https://via.placeholder.com/600x300" alt="Hardware Certificate" class="cert-img">
-        <img src="https://via.placeholder.com/600x300" alt="AWS Certificate" class="cert-img">
-    </section>
+    <h3>Travel Blogging Website – Full Stack (AWS)</h3>
+    <ul>
+      <li>Built a blogging platform with Node.js backend and HTML/CSS frontend.</li>
+      <li>Hosted on AWS using S3, Route 53, IAM, and EC2.</li>
+      <li>Implemented resource monitoring and security policies using CloudWatch and IAM.</li>
+    </ul>
 
-    <section>
-        <h2>Contact</h2>
-        <p>Email: shrutimoholkar5@example.com</p>
-        <p>LinkedIn: <a href="https://linkedin.com/in/shrutimoholkar">linkedin.com/in/shrutimoholkar</a></p>
-        <p>GitHub: <a href="https://github.com/shrutim1111">github.com/shrutim1111</a></p>
-    </section>
+    <h3>Personal Portfolio Website – React.js & Tailwind CSS</h3>
+    <ul>
+      <li>Designed and developed a fully responsive portfolio website to showcase projects and skills.</li>
+      <li>Integrated contact forms and blog sections, enhancing user engagement.</li>
+    </ul>
 
-    <footer>
-        &copy; 2025 Shruti Moholkar. All rights reserved.
-    </footer>
+    <h3>Stock Price Predictor – Python, Scikit-Learn</h3>
+    <ul>
+      <li>Built a predictive model using Python, Pandas, and Scikit-Learn to forecast stock trends.</li>
+      <li>Achieved an accuracy of 80% using LSTM-based deep learning models.</li>
+    </ul>
+  </section>
+
+  <section id="certifications" class="section">
+    <h2>Certifications</h2>
+    <ul>
+      <li>CPC Academy: C, C++, Java, HTML, .NET, CSS Certification</li>
+      <li>Udemy: Web Development Bootcamp (2022)</li>
+    </ul>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact</h2>
+    <p>Email: shrutimoholkar59@gmail.com</p>
+    <p>Phone: +91 7798916591</p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/shruti-moholkar" target="_blank">linkedin.com/in/shruti-moholkar</a></p>
+  </section>
+
+  <div class="footer">
+    © 2025 Shruti Moholkar | Portfolio
+  </div>
 </body>
 </html>
-
-
 
